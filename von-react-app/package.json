@@ -1,0 +1,53 @@
+{
+  "name": "von-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/base": "^5.0.0-beta.40",
+    "@mui/icons-material": "^6.0.1",
+    "@mui/lab": "^6.0.0-beta.8",
+    "@mui/material": "^6.0.1",
+    "@mui/x-data-grid": "^7.21.0",
+    "3dmol": "^2.4.0",
+    "better-react-mathjax": "^2.0.3",
+    "d3": "^7.9.0",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "firebase": "^10.13.1",
+    "katex": "^0.16.11",
+    "mathjs": "^13.1.1",
+    "notistack": "^3.0.1",
+    "react": "^18.3.1",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/d3-selection": "^3.0.10",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-katex": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
