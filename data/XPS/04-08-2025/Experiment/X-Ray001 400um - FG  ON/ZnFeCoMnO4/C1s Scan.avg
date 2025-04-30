@@ -1,0 +1,139 @@
+;========================================================================
+;Dump of DataSpace 'C:\Users\engineer\Documents\data\user data\amt342\ColinBundschu(crb273)\04-08-2025\Experiment\X-Ray001 400um - FG  ON\ZnFeCoMnO4\C1s Scan.VGD'
+; on 8/4/2025 at 18:47:32
+;========================================================================
+
+
+;[Note that this file can be reloaded only if certain syntax rules are NOT broken]
+
+$FORMAT=4
+
+
+;Summary Properties present:
+$PROPERTIES=SUM
+DS_EXT_SUPROPID_TITLE       : VT_BSTR = 'C1s Scan'
+DS_EXT_SUPROPID_SUBJECT     : VT_BSTR = '04-08-2025'
+DS_EXT_SUPROPID_AUTHOR      : VT_BSTR = 'engineer'
+DS_EXT_SUPROPID_COMMENTS    : VT_BSTR = ''
+DS_EXT_SUPROPID_CREATED     : VT_DATE = 8/4/2025   21:24:42
+DS_EXT_SUPROPID_SAVED       : VT_DATE = 8/4/2025   21:38:00
+
+;Standard Properties present:
+$PROPERTIES=STD
+DS_GEPROPID_TECHNIQUE                       : VT_I4   = 1
+DS_GEPROPID_INSTRUMENT                      : VT_BSTR = 'Nexsa_G2'
+DS_GEPROPID_SOURCE_TYPE                     : VT_I4   = 1
+DS_GEPROPID_GUID                            : VT_BSTR = '{5CA9FA1B-6AE1-462D-B06D-FE7A25BE9DB0}'
+DS_GEPROPID_SOURCE_GUID                     : VT_BSTR = '{5CA9FA1B-6AE1-462D-B06D-FE7A25BE9DB0}'
+DS_GEPROPID_EXPT_RUN_GUID                   : VT_BSTR = '{315F86BB-07DF-4D75-BCC0-21DA24A6008A}'
+DS_GEPROPID_VALUE_TYPE                      : VT_I4   = 11
+DS_GEPROPID_VALUE_LABEL                     : VT_BSTR = 'Counts'
+DS_GEPROPID_VALUE_SYMBOL                    : VT_BSTR = 'C'
+DS_GEPROPID_VALUE_UNIT                      : VT_BSTR = ''
+DS_DATASTORAGEID_DATA_STORAGE_METHOD        : VT_I4   = 0
+DS_SOPROPID_STYPE                           : VT_I4   = 10
+DS_SOPROPID_MONO                            : VT_BOOL = True
+DS_SOPROPID_ENERGY                          : VT_R4   = 1486.680054
+DS_SOPROPID_VOLTAGE                         : VT_R4   = 12000.000000
+DS_SOPROPID_CURRENT                         : VT_R4   = 0.010000
+DS_SOPROPID_WIDTH                           : VT_R4   = 400.000000
+DS_SOPROPID_LENGTH                          : VT_R4   = 400.000000
+DS_SOPROPID_GUN                             : VT_I2   = 11
+DS_STPROPID_POS_X                           : VT_I4   = 29251600
+DS_STPROPID_POS_Y                           : VT_I4   = 20190300
+DS_STPROPID_POS_Z                           : VT_I4   = 33810506
+DS_STPROPID_POS_TILT                        : VT_I4   = 0
+DS_STPROPID_POS_AZIM                        : VT_I4   = 0
+DS_ACPROPID_START_TIME                      : VT_DATE = 8/4/2025   21:36:46
+DS_ACPROPID_END_TIME                        : VT_DATE = 8/4/2025   21:38:00
+DS_ACPROPID_ACQ_TIME                        : VT_R4   = 0.050000
+DS_ACPROPID_PERIODS                         : VT_I4   = 5
+DS_ACPROPID_MODE                            : VT_I2   = 2
+DS_ACPROPID_DIRECTION                       : VT_I2   = 1
+DS_ACPROPID_SIG_COMP                        : VT_BOOL = True
+DS_ACPROPID_EV_SCALE                        : VT_I2   = 1
+DS_SOURCE_FLOODGUNPROPID_CURRENT            : VT_R4   = 150.000000
+DS_SOURCE_FLOODGUNPROPID_ENERGY             : VT_R4   = 0.200000
+DS_SOURCE_FLOODGUNPROPID_DESCRIPTION        : VT_BSTR = 'Default FG03 mode'
+DS_ANPROPID_MODE                            : VT_I2   = 1
+DS_ANPROPID_PASS                            : VT_R4   = 50.000000
+DS_ANPROPID_WORK_FTN                        : VT_R4   = 4.200000
+DS_ANPROPID_LENS_MODE_NAME                  : VT_BSTR = 'Standard'
+DS_ANPROPID_TXFN_COEFFS                     : VT_I4   = 4
+DS_ANPROPID_TXFN_REMOVED                    : VT_BOOL = True
+; Property list for DS_ANPROPID_TXFN_COEFF (expecting 4) follows:
+DS_ANPROPID_TXFN_COEFF[0]                        : VT_R4   = 4.730430
+DS_ANPROPID_TXFN_COEFF[1]                        : VT_R4   = 0.641629
+DS_ANPROPID_TXFN_COEFF[2]                        : VT_R4   = -0.583938
+DS_ANPROPID_TXFN_COEFF[3]                        : VT_R4   = 0.061485
+
+;Extended Properties present:
+$PROPERTIES=EXT
+;   NONE found
+
+;========================================================================
+
+;DataSpace has 1 data axes as follows:
+;   #=      start,     end,       numSpaceAxes
+$DATAAXES=1,#empty#
+    0=        0,      190,          1
+
+;========================================================================
+
+;DataSpace has 1 space axes as follows:
+;   #=       start,         width,       numPoints,  axisType,   linear,  symbol,     unit,      label
+$SPACEAXES=1
+    0=    1188.680000,       0.100000,      191,  ENERGY,   LINEAR,  'E',   'eV',    'Energy'
+
+;========================================================================
+
+;Values on axis 0
+$DATA=*
+LIST@   0=     2823.890590,     2856.007094,     2934.688221,     2828.072571
+LIST@   4=     2870.844053,     2743.882577,     2949.727504,     2854.977036
+LIST@   8=     2794.272945,     2766.176060,     2851.209505,     2809.288428
+LIST@  12=     2696.483149,     2809.206478,     2653.222742,     2746.085954
+LIST@  16=     2663.916558,     2754.139432,     2764.429640,     2641.535719
+LIST@  20=     2591.226726,     2744.016178,     2754.846083,     2610.760312
+LIST@  24=     2686.373119,     2515.382629,     2575.557690,     2554.894826
+LIST@  28=     2587.225437,     2616.117302,     2535.354187,     2604.241189
+LIST@  32=     2592.923438,     2554.141822,     2523.417948,     2515.087393
+LIST@  36=     2458.464455,     2493.445705,     2511.413474,     2577.430631
+LIST@  40=     2512.461715,     2470.020771,     2369.745501,     2424.953329
+LIST@  44=     2441.577440,     2420.585468,     2376.457012,     2443.644023
+LIST@  48=     2382.163486,     2337.196751,     2369.717717,     2375.463662
+LIST@  52=     2399.135708,     2355.943615,     2431.832454,     2340.838939
+LIST@  56=     2296.153375,     2374.738715,     2251.229507,     2299.982114
+LIST@  60=     2198.710664,     2248.587100,     2272.383176,     2333.265722
+LIST@  64=     2345.081625,     2289.591056,     2380.359655,     2368.998516
+LIST@  68=     2284.964795,     2367.096714,     2303.104058,     2317.265910
+LIST@  72=     2258.866497,     2279.198318,     2398.147107,     2343.758613
+LIST@  76=     2333.437343,     2354.409524,     2350.050812,     2360.812554
+LIST@  80=     2350.206579,     2365.905806,     2459.852998,     2404.929983
+LIST@  84=     2453.071089,     2461.163370,     2525.385688,     2574.790218
+LIST@  88=     2559.301123,     2641.047799,     2643.178935,     2779.920348
+LIST@  92=     2843.017152,     2903.009835,     2947.891320,     3079.695504
+LIST@  96=     3118.418412,     3211.849482,     3284.092814,     3403.174342
+LIST@ 100=     3520.681846,     3504.817167,     3517.740607,     3562.244422
+LIST@ 104=     3499.116236,     3422.821251,     3439.119745,     3462.004219
+LIST@ 108=     3429.590734,     3373.790376,     3524.120136,     3483.004025
+LIST@ 112=     3700.060189,     3870.576738,     4023.423065,     4231.135682
+LIST@ 116=     4477.935063,     4839.576870,     5071.876122,     5709.979294
+LIST@ 120=     6299.821035,     7095.473794,     7893.066169,     9108.787024
+LIST@ 124=    10066.709248,    11294.839108,    12691.086993,    14267.510895
+LIST@ 128=    15779.355630,    17426.301131,    19015.309114,    20043.100538
+LIST@ 132=    20928.855132,    20981.854501,    20791.063071,    19839.389914
+LIST@ 136=    18431.664881,    16842.416344,    14865.020692,    12697.095959
+LIST@ 140=    10878.688963,     9092.144290,     7529.800261,     6443.022814
+LIST@ 144=     5341.207047,     4603.155687,     3959.139058,     3562.947388
+LIST@ 148=     3355.144703,     3034.571305,     2794.378616,     2645.303188
+LIST@ 152=     2478.205009,     2418.076094,     2340.059784,     2359.671696
+LIST@ 156=     2309.081192,     2355.654426,     2187.471084,     2237.904324
+LIST@ 160=     2172.953041,     2123.202065,     2122.603491,     2137.147530
+LIST@ 164=     2168.981318,     2164.136315,     2170.503466,     2078.891750
+LIST@ 168=     2090.623457,     2135.331248,     2111.605134,     2076.194517
+LIST@ 172=     2030.328250,     2058.341911,     2115.052561,     2090.183274
+LIST@ 176=     2061.805278,     2055.812031,     2045.509304,     2043.930724
+LIST@ 180=     1997.737950,     2080.755373,     2044.038823,     2044.672522
+LIST@ 184=     2023.097284,     2017.366894,     2049.231159,     2044.277357
+LIST@ 188=     2015.908888,     2056.831542,     2045.957426
